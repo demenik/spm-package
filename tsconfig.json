@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2017",
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "lib": ["ES2017"]
+  },
+  "include": [
+    "./src/package/**/*",
+    "src/classes/Package.tsckagsrc/package/classes/Package.tsasses/Package.ts",
+    "src/utils/classes/Request.tsquest.ts",
+    "src/utils/classes/Request.tsquest.ts"
+  ]
+}

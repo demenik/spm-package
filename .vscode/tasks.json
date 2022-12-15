@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "watch",
+      "group": "build",
+      "problemMatcher": [
+        {
+          "owner": "demenik",
+          "fileLocation": "relative",
+          "pattern": {
+            "regexp": "^$"
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "assets by status",
+            "endsPattern": "compiled"
+          }
+        }
+      ],
+      "label": "npm: watch",
+      "detail": "npx webpack --mode=development --node-env=development --watch",
+      "runOptions": {
+        "runOn": "folderOpen",
+        "instanceLimit": 1
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "never",
+        "focus": false,
+        "clear": true
+      }
+    }
+  ]
+}
