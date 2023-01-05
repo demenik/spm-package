@@ -1,4 +1,4 @@
-import Request from "../classes/Request";
+import Request from "../helpers/Request";
 import Console from "../utils/Console";
 
 async function installWrapper() {

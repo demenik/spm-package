@@ -1,5 +1,5 @@
-import Cache from "../classes/Cache";
-import Package from "../classes/Package";
+import Cache from "../helpers/Cache";
+import Package from "../helpers/Package";
 import Console from "../utils/Console";
 import purge from "./purge";
 

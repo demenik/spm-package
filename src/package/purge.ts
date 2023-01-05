@@ -1,5 +1,5 @@
-import Cache from "../classes/Cache";
-import Config from "../classes/Config";
+import Cache from "../helpers/Cache";
+import Config from "../helpers/Config";
 import Console from "../utils/Console";
 
 export default function purge() {
